@@ -1,0 +1,651 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+body header {
+  height: 100px;
+  background-color: white;
+}
+body header .site-logo {
+  padding-top: 20px;
+  padding-left: 30px;
+  float: left;
+}
+body header .site-logo a {
+  font-size: 20px;
+  text-decoration: none;
+}
+body header .site-menu {
+  padding-top: 20px;
+  float: right;
+}
+body header .site-menu ul li {
+  list-style-type: none;
+  display: inline-block;
+  margin: 0px 20px;
+}
+body header .site-menu ul li a {
+  text-decoration: none;
+  font-size: 20px;
+}
+.btn-number {
+  width: 200px;
+  height: 60px;
+  background-color: #2b76f3;
+  border-radius: 6px;
+  color: white;
+  transition: 0.5s;
+}
+.btn-number :hover {
+  width: 200px;
+  height: 60px;
+  background-color: #00365c;
+  border-radius: 6px;
+  color: #8d99ae;
+  transition: 0.5s;
+}
+
+.site-menu :hover {
+  color: rgba(0, 0, 255, 0.712);
+}
+
+/* FIRST PAGE  */
+body main .first-page {
+  height: 750px;
+  background-image: url(medical-image/h1_hero.png);
+  background-size: cover;
+}
+body main .first-page .site-info {
+  position: absolute;
+  top: 300px;
+  left: 200px;
+  width: 450px;
+  height: 350px;
+  color: white;
+  display: inline-block;
+}
+body main .first-page .site-info h1 {
+  color: #102039;
+  font-size: 60px;
+  font-weight: bold;
+}
+body main .first-page .site-info p {
+  color: black;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+body main .first-page button {
+  width: 200px;
+  height: 50px;
+  color: white;
+  background-color: #2b76f3;
+  transition: 0.3s;
+}
+
+body main .practice {
+  display: inline-block;
+}
+body main .practice .site-info2 {
+  padding-top: 200px;
+  padding-left: 150px;
+  width: 500px;
+  height: 400px;
+  display: inline-block;
+  float: left;
+}
+body main .practice .about {
+  color: #396cf0;
+  font-size: 20px;
+  font-weight: bold;
+  display: inline-block;
+  float: left;
+}
+body main .practice .welcome {
+  color: #030431;
+  font-size: 50px;
+  font-weight: bold;
+  width: 400px;
+  display: inline-block;
+  float: left;
+}
+body main .practice .company {
+  color: #787879;
+  letter-spacing: 2px;
+  display: inline-block;
+  float: left;
+}
+
+body main .practice .btn-li {
+  list-style-type: none;
+}
+body main .practice .btn-li .btn1 {
+  text-decoration: none;
+  background-color: #2b76f3;
+  color: white;
+  width: 200px;
+  height: 50px;
+  border-radius: 3px;
+  display: inline-block;
+  float: left;
+}
+body main .practice .btn-li .btn2 {
+  text-decoration: none;
+  background-color: #808285;
+  color: white;
+  width: 200px;
+  height: 50px;
+  border-radius: 3px;
+  margin: 20px 2px;
+  display: inline-block;
+  float: left;
+}
+body main .practice .btn-li .btn3 {
+  text-decoration: none;
+  background-color: #808285;
+  color: white;
+  width: 200px;
+  height: 50px;
+  border-radius: 3px;
+  display: inline-block;
+  float: left;
+}
+.img76 {
+  float: right;
+  padding-top: 200px;
+  padding-left: 200px;
+  width: 617px;
+  height: 556px;
+  display: inline-block;
+  margin-bottom: 400px;
+}
+body main .site-info3 {
+  background-color: #e1f4f8;
+  height: 1000px;
+}
+body main .site-info3 .department {
+  text-align: center;
+}
+body main .site-info3 .department .dp-p {
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #396cf0;
+  margin: 5px 0px;
+}
+body main .site-info3 .department .dp-h {
+  font-size: 50px;
+  font-weight: bold;
+  color: #030431;
+  margin: 5px 0px;
+}
+.cardlar li {
+  list-style-type: none;
+  padding-left: 150px;
+  transition: 0.7s;
+}
+
+.cardlar div.active {
+  background-color: #3eadf8;
+  color: #fff;
+}
+.icn {
+  background-color: rgb(255, 255, 255);
+  width: 150px;
+  height: 150px;
+  margin-right: 50px;
+  float: left;
+  text-align: center;
+  padding-top: 35px;
+}
+.fas {
+  font-size: 45px;
+  padding-bottom: 6px;
+  color: #8fcffb;
+}
+.icon-p {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.icon-p-1 {
+  font-size: 18px;
+  font-weight: bold;
+}
+.icnasagi {
+  background-color: #43a2fb;
+  width: 780px;
+  height: 480px;
+  color: rgb(255, 255, 255);
+  font-size: 10px;
+  margin-top: 270px;
+  margin-left: 180px;
+}
+.imgicn {
+  width: 570px;
+  height: 487px;
+  padding-right: 200px;
+  float: right;
+  margin: 100px 0px;
+}
+.dent-h1 {
+  font-size: 25px;
+  font-weight: bold;
+  width: 550px;
+  padding-top: 130px;
+  padding-left: 100px;
+}
+.dent-p {
+  font-size: 15px;
+  font-weight: initial;
+  width: 650px;
+  margin: 20px 0px;
+  letter-spacing: 2px;
+  padding-left: 100px;
+}
+.dent-btn {
+  width: 170px;
+  height: 50px;
+  font-size: 15px;
+  font-weight: lighter;
+  text-align-last: left;
+  background-color: white;
+  color: rgb(0, 0, 0);
+  margin-left: 100px;
+  text-align: center;
+}
+.fa {
+  font-size: 20px;
+  color: rgb(43, 43, 44);
+  padding-left: 30px;
+  text-align-last: right;
+}
+body main .site-info4 {
+  background-color: white;
+  height: 1000px;
+  overflow: hidden;
+}
+body main .site-info4 .imgler4cusayfa {
+  text-align-last: center;
+}
+body main .site-info4 .imgler4cusayfa .our-p {
+  color: #6b91f4;
+  font-size: 18px;
+  font-weight: bolder;
+}
+body main .site-info4 .imgler4cusayfa .our-h1 {
+  color: #030431;
+  font-weight: bold;
+}
+
+.galleray {
+  height: 100%;
+  padding-left: 150px;
+  margin-top: 50px;
+}
+.galleray div {
+  width: 48%;
+  float: left;
+  height: 600px;
+}
+.galleray .gal1 {
+  margin-right: 10px;
+}
+.galleray .gal2 {
+}
+.clr {
+  clear: both;
+}
+.img-1 {
+  width: 640px;
+  display: inline-block;
+  justify-content: space-between;
+
+  float: left;
+}
+.img-2 {
+  width: 330px;
+  height: 350px;
+  padding-left: 30px;
+  display: inline-block;
+  justify-content: space-between;
+  float: left;
+}
+.img-3 {
+  width: 300px;
+  height: 350px;
+  padding-left: 30px;
+  display: inline-block;
+  justify-content: space-between;
+  float: left;
+}
+.img-4 {
+  width: 600px;
+  height: 500px;
+  margin-left: 30px;
+  margin-top: 30px;
+  position: relative;
+  display: block;
+  justify-content: space-between;
+  float: left;
+  overflow: hidden;
+}
+.img-5 {
+  width: 200px;
+  margin-top: 30px;
+  margin-left: 10px;
+  display: block;
+  justify-content: space-between;
+  float: left;
+}
+.img-6 {
+  width: 200px;
+  margin-top: 30px;
+  margin-left: 200px;
+  display: block;
+  justify-content: space-between;
+  float: left;
+}
+
+.site-info45 {
+  height: 800px;
+  margin-top: 200px;
+}
+.site-4-p {
+  color: azure;
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 30px;
+}
+.bas-png {
+  padding-top: 250px;
+  padding-left: 150px;
+  width: 50%;
+  height: 700px;
+  background-color: blue;
+}
+.bas-p1 {
+  color: white;
+  font-size: 17px;
+  font-weight: bold;
+  padding-left: 30px;
+  width: 200px;
+  display: inline-block;
+}
+.bas-esas {
+  float: right;
+  width: 50%;
+  height: 700px;
+  background-image: url(medical-image/hekim.png);
+  background-size: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left top;
+}
+.basimg {
+  margin-top: 100px;
+  display: inline-block;
+}
+.site-info5 {
+  margin: 0px 0px;
+  background-color: white;
+  height: 800px;
+}
+.info5 {
+  text-align: center;
+  margin-top: 20px;
+}
+.our-p {
+  color: #396cf0;
+  font-weight: bold;
+  font-size: 20px;
+}
+.our-h1 {
+  color: #030431;
+  font-size: 50px;
+  font-weight: bold;
+}
+.lili {
+  list-style-type: none;
+}
+.team-1 {
+  float: left;
+}
+.team-1 :hover {
+  zoom: 104%;
+}
+.team-2 {
+  float: right;
+  margin-right: 100px;
+}
+.team-2 :hover {
+  zoom: 104%;
+}
+.team-3 {
+  float: right;
+  margin-right: 154px;
+}
+.team-3 :hover {
+  zoom: 104%;
+}
+.texts {
+  margin-top: 500px;
+}
+.text1 {
+  margin-left: 100px;
+  position: absolute;
+}
+.text2 {
+  margin-left: 650px;
+  margin-bottom: 100px;
+  position: absolute;
+}
+.text3 {
+  margin-left: 1200px;
+}
+
+.textler {
+  font-size: 25px;
+  font-weight: bold;
+}
+.textler2 {
+  font-size: 15px;
+  color: grey;
+}
+.fab {
+  color: grey;
+  letter-spacing: 20px;
+  font-size: 15px;
+}
+.form-group {
+  background-color: rgb(255, 255, 255);
+  width: 300px;
+  position: fixed;
+  float: right;
+  position: relative;
+}
+
+.p-h1 {
+  float: right;
+}
+.form-p {
+  font-size: 18px;
+  font-weight: bold;
+  color: #527ff2;
+}
+.form-h1 {
+  font-size: 40px;
+  font-weight: bold;
+}
+.site-info7 {
+  background-color: white;
+  height: 1000px;
+  margin-top: 200px;
+  margin-right: 100px;
+}
+.oure {
+  font-size: 20px;
+  text-align-last: center;
+  font-weight: bold;
+}
+.news {
+  color: #030431;
+  font-size: 50px;
+  font-weight: bold;
+  text-align-last: center;
+}
+.nbr {
+  list-style-type: none;
+}
+.top {
+  margin-top: 100px;
+}
+.shf {
+  width: 340px;
+}
+.img11 {
+  float: left;
+  width: 100px;
+  margin-left: 130px;
+}
+.hoverli :hover {
+  zoom: 100.1%;
+}
+.img22 {
+  float: right;
+  margin-right: 100px;
+}
+.hoverli2 :hover {
+  zoom: 100.1%;
+}
+.img33 {
+  float: right;
+  margin-right: 50px;
+}
+.hoverli3 :hover {
+  zoom: 100.1%;
+}
+.p-ler {
+  margin-top: 500px;
+  width: 5 00px;
+}
+.ppp {
+  font-size: 15px;
+}
+.h111 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #112957;
+}
+.pp {
+  font-size: 15px;
+  letter-spacing: 2px;
+}
+.textt1 {
+  float: left;
+  width: 350px;
+  margin-left: 200px;
+}
+.textt2 {
+  float: right;
+  width: 350px;
+  margin-right: 20px;
+}
+.textt3 {
+  margin-right: 120px;
+  float: right;
+  width: 350px;
+}
+.aaa {
+  text-decoration: none;
+}
+
+.contact-part1 {
+  width: 49%;
+}
+.contact-part1 img {
+  width: 100%;
+}
+
+.contact-part2 {
+  float: right;
+  width: 49%;
+  padding-right: 120px;
+}
+
+.contact-part2 textarea{
+  height: 200px;
+}
+
+.form-group{
+  margin: 30px 0;
+  padding:0 10px;
+}
+.submit{
+  width: 170px;
+  height: 50px;
+  font-size: 18px;
+  background-color: #2A75F3 ;
+  margin-left: 35px;
+  color: white;
+}
+
+.footer {
+  background-color: #11141b;
+  height: 600px;
+}
+
+.umumi-ftr {
+  padding-top: 150px;
+}
+
+.h1-foot {
+  font-size: 20px;
+  font-weight: bold;
+}
+.email-phn div {
+  margin-top: 60px;
+}
+.bluee {
+  color: blue;
+}
+.input {
+  width: 300px;
+  height: 43px;
+  padding: 10px 20px;
+  border: 0;
+  background: #1c242f;
+  color: #fff;
+}
+.send {
+  width: 100px;
+  height: 43px;
+  background-color: #11141b;
+  color: rgb(25, 0, 255);
+}
+.ftr-ul li {
+  list-style-type: none;
+  float: left;
+  width: 33%;
+  color: #bdbdbd;
+}
+
+.aboutus p {
+  padding: 25px 250px 0 0;
+  font-size: 18px;
+  text-align: justify;
+}
+.ftr-txticn {
+  margin-top: 330px;
+}
+.ftr-bitis-p {
+  color: grey;
+  margin-left: 100px;
+  float: left;
+}
+.ftr-icons {
+  margin-right: 200px;
+  float: right;
+}
+.ftr-icons :hover {
+  color: white;
+}
